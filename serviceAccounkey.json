@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "origamee-qa",
+    "private_key_id": "1a00a9bfb65c4c70334f0f3d7938ad450859b0c8",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVMuPJfX7jRfvK\nxKr/5paRy9kKnd31TADmGQjXt150qWhiEdBLyWEGLBBVmhYtrwu/5MR19cG3955B\nC0qGh0JqukBrCMJNpd6fxpg9PEZlT49HSbOCGDC2Kr3QfMyhgscpglYiaN98UP3N\nXxu3hpZbj9acqLR81wCTN95R8HXynI9NMPmIFqYl/52PJ3feku3IBz5nTazQf7xl\nLtqgb8DbKgUDLGWa/i/yflfu+/sC2rFky1TIw8/6MbKgasHKLXw6ZOez9M9vFfwu\nvPPURdWUZPctKhMo++YMzrZxQA3bE+tQ59ZYnkWzMujWs+q/ru4tYTwKSoE0mMGs\no3j2rpqBAgMBAAECggEAByA80drCd3k62cOqDYSZCsV7+ylcplrEeuxiSceEvjR9\nWy3KPwY7mne1kg7k5+D+bQsJ8AFnWK1LmlP0yTtTInsYNRulVvAQ2VlLdFyD49X9\nbX4OpG4Hjsct8f6B3nIfEwmatGq58Y9JdGhV5lP2yZesri7LXZLYH5OR+D4nyxSV\n5pHu79mtzrbhPZIQ7y07eIzC9WgE7+OvvjBoVJRmjEy/hmH2KNYIM91IdaSKDqyH\nQBvVUILMyGOQjlMNtZ0Ws26yvKdDDX7ijzUuik8m++COE7dOZBUMl3vJ/eb55USD\nEy8t9mwazd8PktMOKKMJK/MV2AUPiYgJ8o81IGEPuQKBgQD329a3izcM2/2Zx4H7\n/v/qfjQ4u3uN3jAsKVNnIH7nwk0zdpCHjUgmFNMdUta7BkiIjXlCnycWIPtt8d9G\nwvHGDAqG9/WsgTbr++E1jiTjGUZSGEawfwT7tDdmrAgT1hPFcNOLMRVsmlxTz6DA\nTiP2OmWwCkeYvbXoSwkC61lhpQKBgQDcM5tpOO4hZQp+NIgmPSqS4vP6X68FMA+t\n7tLM9sTVCq/YQP8kX50GMld0d+qd+3NfouU3lB/RYBiIILZeBn9If2m57BaLYRxa\nsP1QXECzfEiqE0QF4i9mobTD6kUH9PEmFgrtTBtB7kFn/QJWttKwi1lMpShMnBmL\nxOxdMxrGrQKBgQDhU2bYx2PNefULpxbhO0n2KLNa2/4P0+0hSJR8zUrxcG90mJX9\n1Q/BJu9h2hxCPA0Wrt6NFViYQnWw1tEvaCwZ6nprhuI9595BHGP5pvabyi9mlJE3\nBNJH7ObsnPpe5iBlPxPhl0aty4qh2sB98su4nhAxwLakAdtsiUJw9/nyzQKBgQC/\nD4gpJFx6XVFdb/cyNqBaEtHezGbv+WOhZzdA4Fyo/TzWRo8a4Fs+pS98vw+zRBo3\nQP/h2YRCBz9B3iBeNQT7wpHZ4B8vkHMpvagNsf3xvkTOTSkYccjvJB/UXdDHtqAG\ni9mvS/namv/lWoJM+xSUWlSBTExLLKZ9v7/WniD9gQKBgB9p9CLnJpmXr83cqik+\n/mkoyiWzCmOa7KG3/uQUpNOo056mU8xqeJ7tpj3IeVa8Wn/c4Nqc9retNrAWBP8G\nrrniX44FrmPeXM3/TxNSwBtcPBJxJvNO/1FkGlodFgX/Bl6sTWNlOCmJaHMQRdrw\njRBniddNT5Nm9Bx1aGVH3MBQ\n-----END PRIVATE KEY-----\n",
+    "client_email": "subida-ficheros-astander@origamee-qa.iam.gserviceaccount.com",
+    "client_idlient_id": "118347018798597829063",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/subida-ficheros-astander%40origamee-qa.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
