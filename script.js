@@ -317,8 +317,8 @@ try {
             },
         });
     
-        const result = await response.json();
-        return result;
+        const result = await response.data.message;
+        console.log(result)
     } catch (error) {
         console.error('Error:', error);
         throw error;
@@ -337,13 +337,28 @@ async function processPDFs() {
         const driveId = '0AO5Il-tGgasrUk9PVA';
 
         const files = await listFiles( driveId, folderId);
-        const fileObjects = [];
+        let fileObjects = [];
+        let filefinal= 'false'
 
         for (const file of files) {
+
             const respuesta = await processPDF( file.id);
             const name_archivo = await transferirDesdeDriveAGCS(file.id, file.name); 
 
             if (respuesta[0]) {
+
+                if (filefinal == 'true'){
+                    const token = await authenticate1()
+                    await createitem('6368149369782272', '4774097088151552', datos, token, fileObjects);
+                    datos = null;
+                    data = null;
+                    fileObjects = [];
+                    filefinal= 'false'
+    
+                }else{
+                 console.log('continuamos') 
+                }
+
                 const data = await getInvoiceParsed(name_archivo, DEFAULT_SCHEMA);  //no funciona del todo
 
                 if (datos === null) {
@@ -372,18 +387,30 @@ async function processPDFs() {
                 };
                 fileObjects.push(fileObject);
 
-                await createitem('6368149369782272', '4774097088151552', datos, token, fileObjects);
-                await moveFile(authClient, file.id, '1WhBC8jPgZDLNYfQxnRsnZBTvaRkh3SU7');
+                await moveFile( file.id, '1WhBC8jPgZDLNYfQxnRsnZBTvaRkh3SU7');
 
-                // Reset datos and data
-                datos = null;
-                data = null;
+
+                filefinal= 'true'
             }
+        }
+
+        if (filefinal == 'true'){
+            const token = await authenticate1()
+            await createitem('6368149369782272', '4774097088151552', datos, token, fileObjects);
+            datos = null;
+            data = null;
+            fileObjects = [];
+            filefinal= 'false'
+
+        }else{
+         console.log('continuamos') 
         }
     } catch (error) {
         // Handle errors here
         console.error(error);
     }
+
+
 }
 
 async function processPDF(fileId){
